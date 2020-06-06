@@ -1,0 +1,19 @@
+{
+  "name": "covid19",
+  "version": "1.0.0",
+  "description": "We’re going to design an API for the doctors of a Hospital which has been allocated by the govt for testing and quarantine + well being of  COVID-19 patients",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "NILANKNIKHIL",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.18",
+    "nodemon": "^2.0.4"
+  }
+}
